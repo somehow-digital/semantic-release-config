@@ -34,6 +34,9 @@
 	"files": [
 		"./configuration/"
 	],
+	"peerDependencies": {
+		"semantic-release": "^24.0.0"
+	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.3.0",
 		"@somehow-digital/commitlint-config": "^1.0.0",
