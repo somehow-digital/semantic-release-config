@@ -10,6 +10,11 @@
 		"node": ">=20",
 		"pnpm": ">=10"
 	},
+	"pnpm": {
+		"overrides": {
+			"conventional-changelog-conventionalcommits": "^9.0.0"
+		}
+	},
 	"scripts": {
 		"prepare": "husky",
 		"lint": "concurrently --group --prefix-colors 'auto' 'pnpm:lint:*'",
