@@ -10,11 +10,6 @@
 		"node": ">=20",
 		"pnpm": ">=10"
 	},
-	"pnpm": {
-		"overrides": {
-			"conventional-changelog-conventionalcommits": "^9.0.0"
-		}
-	},
 	"scripts": {
 		"prepare": "husky",
 		"lint": "concurrently --group --prefix-colors 'auto' 'pnpm:lint:*'",
@@ -36,6 +31,9 @@
 	],
 	"peerDependencies": {
 		"semantic-release": "^24.0.0"
+	},
+	"dependencies": {
+		"conventional-changelog-conventionalcommits": "^9.0.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.3.0",
