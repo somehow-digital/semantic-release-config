@@ -5,7 +5,7 @@
 	"type": "module",
 	"license": "MIT",
 	"repository": "somehow-digital/semantic-release-config",
-	"packageManager": "pnpm@10.12.4",
+	"packageManager": "pnpm@10.13.1",
 	"engines": {
 		"node": ">=20",
 		"pnpm": ">=10"
