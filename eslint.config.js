@@ -1,3 +1,3 @@
-import config from '@somehow-digital/eslint-config/basic';
+import config from '@somehow-digital/eslint-config';
 
-export default [...config];
+export default config();

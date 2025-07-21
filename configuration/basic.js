@@ -16,5 +16,6 @@ export default {
 		'@semantic-release/github',
 		'@semantic-release/npm',
 	],
+	// eslint-disable-next-line no-template-curly-in-string
 	tagFormat: '${version}',
 };
