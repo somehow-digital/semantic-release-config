@@ -28,7 +28,7 @@
 		"fix:knip": "knip --no-progress --fix"
 	},
 	"peerDependencies": {
-		"semantic-release": "^24.0.0"
+		"semantic-release": "^24.0.0 || ^25.0.0"
 	},
 	"dependencies": {
 		"conventional-changelog-conventionalcommits": "^9.0.0"
@@ -44,7 +44,7 @@
 		"husky": "^9.0.11",
 		"knip": "^5.17.4",
 		"lint-staged": "^16.0.0",
-		"semantic-release": "^24.2.3"
+		"semantic-release": "^25.0.0"
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
