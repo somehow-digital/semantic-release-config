@@ -31,7 +31,7 @@
 		"semantic-release": "^24.0.0 || ^25.0.0"
 	},
 	"dependencies": {
-		"conventional-changelog-conventionalcommits": "^9.0.0"
+		"conventional-changelog-conventionalcommits": "^10.0.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^21.0.0",
