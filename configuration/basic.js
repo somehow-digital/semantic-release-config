@@ -1,5 +1,6 @@
 export default {
 	branches: ['main'],
+	preset: 'conventionalcommits',
 	plugins: [
 		[
 			'@semantic-release/commit-analyzer',
